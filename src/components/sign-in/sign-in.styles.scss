@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+.sign-in {
+    width: 380px;   
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis';
+    h2 {
+        margin-bottom: 10px;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+.contact-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'McLaren';
+    margin: 100px auto;
+    .left-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        border-right: 1px solid #000000;
+        .title{
+            margin: 15px 0;
+        }
+        .message-input {
+            width: 400px;
+            height: 160px;
+            border: 1px solid #000000;
+            resize: none;
+            outline: none;
+            font-family: 'Dosis';
+            font-size: 18px;
+        }
+        .email-input {
+            width: 250px;
+            height: 30px;
+            margin-bottom: 15px;
+            border: 1px solid #000000;
+            outline: none;
+            font-family: 'Dosis';
+            font-size: 16px;
+        }
+        .yourcompanyemail {
+            font-size: 19px;
+            margin-top: 150px;
+        }
+    }
+    .right-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            font-family: 'Dosis';
+            font-size: 46px;
+        }
+        .section-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 18px 0;
+            .section-item-header {
+                font-size: 30px;
+            }
+            .section-item-address {
+                font-size: 19px;
+            }
+        }
+    }
+}

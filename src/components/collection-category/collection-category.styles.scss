@@ -1,0 +1,20 @@
+.category {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    .category-title {
+        width: 180px;
+        text-align: center;
+        font-family: 'Rubik';
+        font-size: 28px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .category-items {
+        width: 93%;
+        display: flex;
+        align-items: middle;
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+}
