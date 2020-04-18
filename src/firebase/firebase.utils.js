@@ -29,7 +29,7 @@ export const createUserProfile = async (userAuth, additionalData) => {
                 ...additionalData
             });
         } catch (error) {
-            console.log('There was a problem: ', error.message);
+            alert('There was a problem: ', error.message);
         }
     }
     return userRef;

@@ -6,8 +6,6 @@ import CollectionPage from '../../components/collection/collection.component';
 
 import {fetchCollectionStart} from '../../redux/shop/shop.actions';
 
-import './shoppage.styles.scss';
-
 const Shoppage = ({fetchCollectionStart, match}) => {
    
     useEffect(() => {

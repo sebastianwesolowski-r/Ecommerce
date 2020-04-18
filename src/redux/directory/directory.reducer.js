@@ -2,13 +2,13 @@ const INITIAL_STATE = {
     categories: [
         {
             id: 1,
-            title: 'MEN',
+            title: 'Men',
             imageUrl: 'https://i.ibb.co/TmPftG7/men-collection.png',
             linkUrl: 'shop/men'
         },
         {
             id: 2,
-            title: 'WOMEN',
+            title: 'Women',
             imageUrl: 'https://i.ibb.co/kJwwfpC/women-collection.png',
             linkUrl: 'shop/women'
         }
