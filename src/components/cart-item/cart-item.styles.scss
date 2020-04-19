@@ -45,3 +45,27 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .cart-item {
+        width: 90%;
+        height: 120px;
+        .cart-item-summary {
+            padding: 0;
+            .cart-item-img {
+                width: 100px;
+                height: 100px;
+                border: none;
+            }
+            .cart-item-data {
+                margin-left: 10px;
+                font-size: 12px;
+            }
+        }
+        .cart-item-total {
+            p {
+                margin-left: 15px;
+            }
+        }
+    }
+}

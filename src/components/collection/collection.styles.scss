@@ -7,7 +7,6 @@
     .collection-title{
         text-align: center;
         font-family: 'Dosis';
-        font-weight: 500;
         font-size: 40px;
     }
 }
@@ -36,6 +35,17 @@
             to {
             -webkit-transform: rotate(360deg);
             }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .collection {
+        width: 95%;
+        margin: 25px auto;
+        .collection-title {
+            font-size: 33px;
+            margin-bottom: 20px;
         }
     }
 }

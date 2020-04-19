@@ -4,10 +4,14 @@
 }
 
 .sign-in-page {
-    width: 60%;
+    width: 65%;
+    min-width: 1000px;
     display: flex;
     justify-content: space-between;
     margin: 100px auto;
+    .sign-component {
+        margin: 0 25px;
+    }
 }
 
 .processing{
@@ -40,4 +44,14 @@
                 }
             }
         }
+}
+
+@media (max-width: 800px) {
+    .sign-in-page {
+        width: 95%;
+        min-width: 0;
+        flex-direction: column;
+        align-items: center;
+        margin: 35px auto;
+    }
 }

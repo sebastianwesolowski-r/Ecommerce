@@ -12,8 +12,8 @@ import './signinpage.styles.scss';
 const SignInPage = ({isProcessing}) => (
     <div className="wrapper">
         <div className="sign-in-page">
-            <SignIn />
-            <SignUp />
+            <SignIn className="sign-component"/>
+            <SignUp className="sign-component"/>
         </div>
         {
             isProcessing ? (

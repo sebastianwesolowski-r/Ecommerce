@@ -1,4 +1,12 @@
 .homepage {
     width: 100%;
+    min-width: 1000px;
     background-color: #000000;
+}
+
+@media (max-width: 800px) {
+    .homepage {
+        min-width: 0;
+        overflow: hidden;
+    }
 }

@@ -24,10 +24,10 @@ const Header = ({currentUser, signOutStart}) => (
         <div className="user-panel">
             {currentUser ? 
                 (
-                    <div className="user-panel-item" onClick={signOutStart}>Sign Out</div>
+                    <div className="user-panel-item" onClick={signOutStart}>Sign out</div>
                 ) : (
                     <Link to="/signin">
-                        <div className="user-panel-item">Sign In</div>
+                        <div className="user-panel-item">Sign in</div>
                     </Link>
                 )
             }

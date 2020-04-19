@@ -12,3 +12,16 @@
         justify-content: space-between;
     }
 }
+
+@media (max-width: 800px) {
+    .sign-in {
+        width: 100%;
+        margin-bottom: 60px;
+        h2 {
+            font-size: 20px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+}

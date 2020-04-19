@@ -53,3 +53,27 @@
         } 
     }
 }
+
+@media (max-width: 800px) {
+    .item {
+        width: 170px;
+        height: 200px;
+        font-size: 13px;
+        margin: 10px 2px;
+        .img {
+            width: 150px;
+            height: 140px;
+            min-height: 140px;
+        }
+        .elements {
+            .name {
+                text-align: center;
+            }
+            .button {
+                width: 130px;
+                height: 30px;
+                font-size: 15px;
+            }
+        }
+    }
+}

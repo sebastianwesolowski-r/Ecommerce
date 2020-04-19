@@ -21,3 +21,10 @@
         border: 1px solid black;
     }
 }
+
+@media (max-width: 800px) {
+    .custom-button {
+        height: 35px;
+        min-width: 0;
+    }
+}

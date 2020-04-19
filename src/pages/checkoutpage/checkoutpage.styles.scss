@@ -1,4 +1,5 @@
 .checkout {
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +34,20 @@
         margin: 100px 0;
         p {
             margin-left: auto;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .checkout {
+        min-width: 0;
+        font-size: 17px;
+        .checkout-header {
+            height: 35px;
+            width: 90%;
+        }
+        .cart-total {
+            width: 90%;
         }
     }
 }

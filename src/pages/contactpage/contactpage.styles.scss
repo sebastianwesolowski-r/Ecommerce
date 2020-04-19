@@ -1,5 +1,6 @@
 .contact-page {
     width: 100%;
+    min-width: 1000px;
     display: flex;
     align-items: center;
     font-family: 'McLaren';
@@ -56,6 +57,54 @@
             }
             .section-item-address {
                 font-size: 19px;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-page {
+        min-width: 0;
+        flex-direction: column;
+        margin: 40px auto;
+        .left-section {
+            width: 90%;
+            border: none;
+            border-bottom: 1px solid black;
+            .title {
+                font-size: 14px;
+                margin: 5px 0;
+            }
+            .message-input {
+                height: 125px;
+                width: 300px;
+                font-size: 19px;
+            }
+            .email-input {
+                width: 200px;
+                height: 30px;
+                font-size: 19px;
+            }
+            .yourcompanyemail {
+                font-size: 18px;
+                margin: 30px 0;
+            }
+        }
+        .right-section {
+            width: 90%;
+            margin: 20px 0;
+            .title {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+            .section-item {
+                margin: 10px 0;
+                .section-item-header {
+                    font-size: 19px;
+                }
+                .section-item-address {
+                    font-size: 15px;
+                }
             }
         }
     }
