@@ -1,8 +1,13 @@
 {
   "name": "ecommerceprj",
   "version": "0.1.0",
+  "engines": {
+    "node": "13.8.0",
+    "npm": "6.13.6"
+  },
   "private": true,
   "dependencies": {
+    "homepage": "https://github.com/sebastianwesolowski-r/E-commerce",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
