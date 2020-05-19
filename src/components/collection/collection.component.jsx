@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 
 import './collection.styles.scss';
 
+import Spinner from '../spinner/spinner.component';
 import CollectionCategory from '../collection-category/collection-category.component';
 import {selectIsCollectionLoaded} from '../../redux/shop/shop.selectors';
 import {selectCollection} from '../../redux/shop/shop.selectors';
@@ -19,9 +20,7 @@ const CollectionPage = ({collection, isLoaded}) => {
                 }
             </div>
         ) : (
-            <div className="SpinnerOverlay">
-                <div className="SpinnerContainer"></div>
-            </div>
+            <Spinner />
         )
     );
 };

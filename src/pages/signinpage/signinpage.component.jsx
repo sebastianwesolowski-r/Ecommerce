@@ -2,6 +2,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
 
+import Spinner from '../../components/spinner/spinner.component';
+
 import {selectProcessing} from '../../redux/user/user.selectors';
 
 import SignIn from '../../components/sign-in/sign-in.component';
@@ -18,7 +20,7 @@ const SignInPage = ({isProcessing}) => (
         {
             isProcessing ? (
                 <div className="processing">
-                    <div className="SpinnerContainer"></div>    
+                    <Spinner />   
                 </div>
             ) : null
         }  
