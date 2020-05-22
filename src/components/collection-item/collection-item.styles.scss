@@ -12,7 +12,7 @@
         .elements .element {
             display: none;
         }
-        .elements .button {
+        .elements .custom-button {
             display: flex;
         }
     }
@@ -31,26 +31,15 @@
             margin-top: 2px;
             color: #686868;
         }
-        .button {
+        .custom-button {
             display: none;
-            margin: 10px 0;
-            align-items: center;
-            justify-content: center;
-            width: 220px;
-            height: 45px;
-            color: #ffffff;
-            background-color: #000000;
-            font-family: 'Dosis';
-            font-weight: 500;
-            font-size: 17px;
-            border: none;
-            &:hover {
-                cursor: pointer;
-                border: 1px solid #000000;
-                background-color: #ffffff;
-                color: #000000;
+            box-shadow: 0 3px 2px 0 #000000;
+            outline: none;
+            &:active {
+                margin-top: 3px;
+                box-shadow: none;
             }
-        } 
+        }
     }
 }
 
