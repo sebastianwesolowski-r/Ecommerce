@@ -11,9 +11,11 @@ import './directory.styles.scss';
 const Directory = ({categories}) => (
     <div className="directory">
         {
-            categories.map(({id, ...otherCategoryProps}) => (
-                <MenuItem key={id} {...otherCategoryProps} />
-            ))
+            categories ? (
+                categories.map(({id, ...otherCategoryProps}) => (
+                    <MenuItem key={id} {...otherCategoryProps} />
+                ))
+            ) : null
         }
     </div>
 );
